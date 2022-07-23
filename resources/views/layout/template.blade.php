@@ -22,9 +22,9 @@
   </head>
   <body>
 
-<?= $this->include('layout/navbar'); ?>
+@include('navbar')
 
-<?= $this->renderSection('content'); ?>
+@yield('content')
 
   <div class="footer_agileinfo_w3">
       <div class="footer_inner_info_w3ls_agileits">

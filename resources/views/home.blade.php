@@ -36,7 +36,7 @@
             <h3>Machinery</h3>
             <p>Ingin cari macam - macam mesin?</p>
             <div class="shop-button">
-              <a href="mesin.php">Lihat Disini</a>
+              <a href="/mesin">Lihat Disini</a>
             </div>
           </div>
         </div>
@@ -46,7 +46,7 @@
             <h3>Oil</h3>
             <p>Ingin cari macam - macam oli?</p>
             <div class="shop-button">
-              <a href="oli.php">Lihat Disini</a>
+              <a href="/oli">Lihat Disini</a>
             </div>
           </div>
         </div>
@@ -56,7 +56,7 @@
             <h3>Accesories</h3>
             <p>Ingin cari macam - macam aksesoris?</p>
             <div class="shop-button">
-              <a href="aksesoris.php">Lihat Disini</a>
+              <a href="/aksesoris">Lihat Disini</a>
             </div>
           </div>
         </div>
@@ -66,7 +66,7 @@
             <h3>Jasa</h3>
             <p>Ingin cari jasa instalasi dan perbaikan mesin bubut?</p>
             <div class="shop-button">
-              <a href="jasa.php">Lihat Disini</a>
+              <a href="/jasa">Lihat Disini</a>
             </div>
           </div>
         </div>

@@ -13,19 +13,19 @@
           <div class="col-md-11" id="navbarNav">
             <ul class="nav justify-content-center">
               <li class="nav-item">
-                <a class="nav-link active" href="index.html">Home</a>
+                <a class="nav-link active" href="/">Home</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="/views/katalog/produk.php" role="button" aria-expanded="false">Katalog</a>
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="/" role="button" aria-expanded="false">Katalog</a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="mesin.php">Mesin</a></li>
-                  <li><a class="dropdown-item" href="oli.php">Oli</a></li>
-                  <li><a class="dropdown-item" href="aksesoris.php">Aksesoris</a></li>
-                  <li><a class="dropdown-item" href="jasa.php">Jasa</a></li>
+                  <li><a class="dropdown-item" href="/mesin">Mesin</a></li>
+                  <li><a class="dropdown-item" href="/oli">Oli</a></li>
+                  <li><a class="dropdown-item" href="/aksesoris">Aksesoris</a></li>
+                  <li><a class="dropdown-item" href="/jasa">Jasa</a></li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="tentangkami.php">Tentang Kami</a>
+                <a class="nav-link" href="/tentangkami">Tentang Kami</a>
               </li>
             </ul>
           </div>

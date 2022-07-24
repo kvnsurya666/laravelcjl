@@ -1,4 +1,4 @@
-@extends('template')
+@extends('layouts.template')
 
 @section('content')
     <nav class="navbar-dark sticky-top bg-light">

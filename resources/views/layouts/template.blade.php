@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title><?= $title; ?></title>
+    <title>CIPTA JAYA LESTARI</title>
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="/img/favicon.ico" />
     <!-- Bootstrap icons-->

@@ -18,7 +18,7 @@ Route::get('/', function () {
 });
 
 Route::get('/admin', function () {
-    return view('/admin/home');
+    return view('/admin/login');
 });
 
 Route::get('/mesin', function () {

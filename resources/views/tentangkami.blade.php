@@ -53,7 +53,7 @@
                             <h5>Pak Edi</h5>
                             <div class="phone-domain">
                               <div style="padding: 6px 10px">
-                                  <img src="/assets/img/whatsapp-original.png" alt="" style="margin-right: 5px; height: 30px; width: 30px" /><span class="" style="float: left; background-color: #25d366"></span>
+                                  <img src="/img/whatsapp.png" alt="" style="margin-right: 5px; height: 30px; width: 30px" /><span class="" style="float: left; background-color: #25d366"></span>
                                   <a target="_blank" href="https://api.whatsapp.com/send?phone=628123170863&amp;text=Halo Pak Edi, Saya dapat nomor dari www.ciptajayalestari.id" class="nobor" style="font-size: 18px">
                                       <span class="hidden-md-down" style="color: #25d366">Chat Now</span></a>
                               </div>
@@ -66,7 +66,7 @@
                             <h5>Pak Ilyas</h5>
                             <div class="phone-domain">
                               <div style="padding: 6px 10px">
-                                  <img src="/assets/img/whatsapp-original.png" alt="" style="margin-right: 5px; height: 30px; width: 30px" /><span class="" style="float: left; background-color: #25d366"></span>
+                                  <img src="/img/whatsapp.png" alt="" style="margin-right: 5px; height: 30px; width: 30px" /><span class="" style="float: left; background-color: #25d366"></span>
                                   <a target="_blank" href="https://api.whatsapp.com/send?phone=6281254693810&amp;text=Halo Pak Ilyas, Saya dapat nomor dari www.ciptajayalestari.id" class="nobor" style="font-size: 18px">
                                       <span class="hidden-md-down" style="color: #25d366">Chat Now</span></a>
                               </div>
@@ -79,7 +79,7 @@
                             <h5>Pak Rochman</h5>
                             <div class="phone-domain">
                               <div style="padding: 6px 10px">
-                                  <img src="/assets/img/whatsapp-original.png" alt="" style="margin-right: 5px; height: 30px; width: 30px" /><span class="" style="float: left; background-color: #25d366"></span>
+                                  <img src="/img/whatsapp.png" alt="" style="margin-right: 5px; height: 30px; width: 30px" /><span class="" style="float: left; background-color: #25d366"></span>
                                   <a target="_blank" href="https://api.whatsapp.com/send?phone=6281331637497&amp;text=Halo Pak Rochman, Saya dapat nomor dari www.ciptajayalestari.id" class="nobor" style="font-size: 18px">
                                       <span class="hidden-md-down" style="color: #25d366">Chat Now</span></a>
                               </div>
@@ -92,7 +92,7 @@
                             <h5>Pak Dwi</h5>
                             <div class="phone-domain">
                               <div style="padding: 6px 10px">
-                                  <img src="/assets/img/whatsapp-original.png" alt="" style="margin-right: 5px; height: 30px; width: 30px" /><span class="" style="float: left; background-color: #25d366"></span>
+                                  <img src="/img/whatsapp.png" alt="" style="margin-right: 5px; height: 30px; width: 30px" /><span class="" style="float: left; background-color: #25d366"></span>
                                   <a target="_blank" href="https://api.whatsapp.com/send?phone=6285232777499&amp;text=Halo Pak Dwi, Saya dapat nomor dari www.ciptajayalestari.id" class="nobor" style="font-size: 18px">
                                       <span class="hidden-md-down" style="color: #25d366">Chat Now</span></a>
                               </div>

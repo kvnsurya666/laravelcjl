@@ -25,7 +25,98 @@
         </button>
       </div>
     </div>
-    <!-- Icons Grid-->
+    <!-- Our Products -->
+    <div class="container">
+          <div class="row" style="padding-top: 20px;">
+            <div class="col-12">
+              <div class="row head-panel align-items-center d-flex justify-content-between">
+              <div class="col-8 col-md-9 head-panel__left">
+                <h2 class="head-panel__title">Our Products</h2>
+              </div>
+            </div>
+            </div> 
+          </div>
+            <div id="carouselProdukUnggulan" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row justify-content-center" style="padding: 20px;">
+                    <div class="card col-md-4" style="width: 20rem; padding-right: 10px;">
+                        <img src="/img/Logo/weida.png" class="card-img-top" alt="WEIDA">
+                      
+                    </div>
+
+                    <div class="card col-md-4" style="width: 20rem; padding-right: 10px;">
+                        <img src="/img/Logo/dixon.jpg" class="card-img-top" alt="DIXON">
+                      
+                    </div>
+              
+                    <div class="card col-md-4" style="width: 20rem; padding-right: 10px;">
+                        <img src="/img/Logo/fullmark.jpg" class="card-img-top" alt="FULLMARK">
+                      
+                    </div>
+                    <div class="card col-md-4" style="width: 20rem; padding-right: 10px;">
+                        <img src="/img/Logo/bositools.png" class="card-img-top" alt="BOSI TOOLS">
+                      
+                    </div>
+                </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row justify-content-center" style="padding: 20px;">
+                    <div class="card col-md-4" style="width: 20rem; padding-right: 10px;">
+                        <img src="/img/Logo/J&W.jpg" class="card-img-top" alt="J&W">
+                      
+                    </div>
+
+                    <div class="card col-md-4" style="width: 20rem; padding-right: 10px;">
+                        <img src="/img/Logo/Besdia.jpg" class="card-img-top" alt="Besdia">
+                      
+                    </div>
+
+                    <div class="card col-md-4" style="width: 20rem; padding-right: 10px;">
+                        <img src="/img/Logo/Carmar.jpg" class="card-img-top" alt="CarMar">
+                      
+                    </div>
+
+                    <div class="card col-md-4" style="width: 20rem; padding-right: 10px;">
+                        <img src="/img/Logo/Arntz.jpg" class="card-img-top" alt="Arntz">
+                      
+                    </div>
+                </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row justify-content-center" style="padding: 20px;">
+                    <div class="card col-md-3" style="width: 20rem; padding-right: 10px;">
+                        <img src="/img/Logo/vertex.png" class="card-img-top" alt="VERTEX">
+                      
+                    </div>
+
+                    <div class="card col-md-3" style="width: 20rem; padding-right: 10px;">
+                        <img src="/img/Logo/seayac.jpg" class="card-img-top" alt="SEAYAC">
+                      
+                    </div>
+
+                    <div class="card col-md-3" style="width: 20rem; padding-right: 10px;">
+                        <img src="/img/Logo/waytrain.jpg" class="card-img-top" alt="WAYTRAIN">
+                      
+                    </div>
+
+                    <div class="card col-md-3" style="width: 20rem; padding-right: 10px;">
+                        <img src="/img/Logo/sanou.jpg" class="card-img-top" alt="SAN OU">
+                      
+                    </div>
+                </div>
+                </div> 
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselProdukUnggulan" data-bs-slide="prev">
+                    <i class="bi bi-chevron-left" style="color: #067fe2;" aria-hidden="true"></i>
+                  <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselProdukUnggulan" data-bs-slide="next">
+                    <i class="bi bi-chevron-right" style="color: #067fe2;" aria-hidden="true"></i>
+                  <span class="visually-hidden">Next</span>
+              </button>
+            </div>                           
+    </div>
 
     <!-- Image Showcases-->
     <section class="showcase">
@@ -43,10 +134,10 @@
         <div class="row g-0">
           <div class="col-lg-6 text-white showcase-img" style="background-image: url('/img/gambar2.jpg')"></div>
           <div class="col-lg-6 my-auto showcase-text">
-            <h3>Oil</h3>
-            <p>Ingin cari macam - macam oli?</p>
+            <h3>Machine Tools</h3>
+            <p>Ingin cari berbagai macam machine tool?</p>
             <div class="shop-button">
-              <a href="/oli">Lihat Disini</a>
+              <a href="/machinetool">Lihat Disini</a>
             </div>
           </div>
         </div>
@@ -63,10 +154,10 @@
         <div class="row g-0">
           <div class="col-lg-6 text-white showcase-img" style="background-image: url('/img/jasa.jpg')"></div>
           <div class="col-lg-6 my-auto showcase-text">
-            <h3>Jasa</h3>
-            <p>Ingin cari jasa instalasi dan perbaikan mesin bubut?</p>
+            <h3>Cutting Tools</h3>
+            <p>Ingin cari berbagai jenis cutting tool?</p>
             <div class="shop-button">
-              <a href="/jasa">Lihat Disini</a>
+              <a href="/cuttingtool">Lihat Disini</a>
             </div>
           </div>
         </div>

@@ -79,10 +79,10 @@
                 <div class="address">
                   <div class="address-grid">
                     <div class="address-right">
-                      <h6>Layanan Pelanggan</h6>
+                      <h6>Office</h6>
                       <i class="fa fa-whatsapp" aria-hidden="true"></i>
                       <div class="phone-domain">
-                        <a href="tel:0313896920" class="nobor">0313896920</a>
+                        <a href="tel:0313896920" class="nobor">031-3896920</a>
                       </div>
                     </div>
                   </div>
@@ -100,8 +100,15 @@
                 <br>
                 <div class="address-grid">
                         <div class="address-right">
-                          <h6>Alamat</h6> 
-                          <p><i class="bi bi-house-door"></i>   Jalan Kenjeran 300 Blok A-7 Surabaya, Jawa Timur, indonesia</p>
+                          <h6>Office</h6> 
+                          <p><i class="bi bi-house-door"></i>   Jalan Kenjeran 300 Blok A-7 Surabaya, Jawa Timur, 60135, Indonesia</p>
+                        </div>
+                      <div class="clearfix"></div>
+                    </div>
+                    <div class="address-grid">
+                        <div class="address-right">
+                          <h6>Warehouse</h6> 
+                          <p><i class="bi bi-building"></i>   Kompleks Pergudangan SiRIE S-7, Lingkar Timur Sidoarjo, Jawa Timur</p>
                         </div>
                       <div class="clearfix"></div>
                     </div>
@@ -113,7 +120,7 @@
             <div id="wa">
               <div class="phone-domain">
                 <div style="padding: 6px 10px">
-                  <p><b>Sales Counter</b></p>
+                  <p><b>Customer Service</b></p>
                   <img src="/img/whatsapp.png" alt="" style="margin-right: 5px; height: 30px; width: 30px" /><span class="" style="float: left; background-color: #25d366"></span>
                   <a target="_blank" href="https://api.whatsapp.com/send?phone=6281335700084&amp;text=Halo Sales Counter, Saya dapat nomor dari www.ciptajayalestari.id" class="nobor" style="font-size: 18px">
                     <span class="hidden-md-down" style="color: #fff">081335700084</span></a>

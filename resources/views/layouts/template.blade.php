@@ -21,37 +21,43 @@
     <link rel="stylesheet" href="/font-awesome/font-awesome.min.css" />
   </head>
   <body>
-    <nav class="navbar-dark sticky-top bg-light">
+    <nav class="navbar navbar-expand-lg sticky-top bg-light">
       <div class="container">
-        <div class="row">
-          <div class="col-md-1">
+                 
             <a class="navbar-brand" href="#" style="padding-top: 10px; padding-bottom: 10px">
-              <img src="/img/logo ciptajayalestari.PNG" alt="" width="100" height="50" />
+              <img src="/assets/img/logo ciptajayalestari.PNG" alt="" width="100" height="50" />
             </a>
-          </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+       
 
-          <div class="col-md-11" id="navbarNav">
-            <ul class="nav justify-content-center">
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="nav-link active" href="/">Home</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="/" role="button" aria-expanded="false">Katalog</a>
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="/views/katalog/produk.php" role="button" aria-expanded="false">Catalogue</a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="/mesin">Mesin</a></li>
-                  <li><a class="dropdown-item" href="/oli">Oli</a></li>
-                  <li><a class="dropdown-item" href="/aksesoris">Aksesoris</a></li>
-                  <li><a class="dropdown-item" href="/jasa">Jasa</a></li>
+                  <li><a class="dropdown-item" href="/mesin">Machinary</a></li>
+                  <li><a class="dropdown-item" href="/machinetool">Machine Tool</a></li>
+                  <li><a class="dropdown-item" href="/aksesoris">Accesories</a></li>
+                  <li><a class="dropdown-item" href="/cuttingtool">Cutting Tool</a></li>
+                  <li><a class="dropdown-item" href="/measuringtool">Measuring Tool</a></li>
+                  <li><a class="dropdown-item" href="/handtool">Hand Tool</a></li>
+                  <li><a class="dropdown-item" href="/cuttingcoolant">Cutting Coolant</a></li>
+                  <li><a class="dropdown-item" href="/abrasive">Abrasive</a></li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/tentangkami">Tentang Kami</a>
+                <a class="nav-link" href="tentangkami.php">About Us</a>
               </li>
             </ul>
           </div>
-        </div>
+        
       </div>
-    </nav>
+  </nav>
 
 @yield('content')
 

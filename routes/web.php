@@ -21,16 +21,32 @@ Route::get('/mesin', function () {
     return view('mesin');
 });
 
-Route::get('/oli', function () {
-    return view('oli');
+Route::get('/machinetool', function () {
+    return view('machinetool');
 });
 
 Route::get('/aksesoris', function () {
     return view('aksesoris');
 });
 
-Route::get('/jasa', function () {
-    return view('jasa');
+Route::get('/cuttingtool', function () {
+    return view('cuttingtool');
+});
+
+Route::get('/measuringtool', function () {
+    return view('measuringtool');
+});
+
+Route::get('/handtool', function () {
+    return view('handtool');
+});
+
+Route::get('/cuttingcoolant', function () {
+    return view('cuttingcoolant');
+});
+
+Route::get('/abrasive', function () {
+    return view('abrasive');
 });
 
 Route::get('/tentangkami', function () {

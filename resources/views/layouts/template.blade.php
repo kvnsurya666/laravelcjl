@@ -70,18 +70,18 @@
                 <img src="/img/logo ciptajayalestari.PNG" style="margin-top: -10px" width="100px" />
               </a>
             </h2>
-            <h4 style="color: red"><b>Metal working and machinery</b></h4>
+            <h4 style="color: red"><b>Metalworking and Machinery</b></h4>
           </div>
           <div class="col-md-4">
             <div class="sign-grds">
               <div class="col-md-5 sign-gd-one">
-                <h4>Hubungi <span>Kami</span></h4>
+                <h4>Contact <span>Us</span></h4>
                 <div class="address">
                   <div class="address-grid">
                     <div class="address-right">
                       <h6>Office</h6>
-                      <i class="fa fa-whatsapp" aria-hidden="true"></i>
                       <div class="phone-domain">
+                        <i class="bi bi-telephone"></i>
                         <a href="tel:0313896920" class="nobor">031-3896920</a>
                       </div>
                     </div>
@@ -91,9 +91,8 @@
                 <br>
                 <div class="address-grid">
                   <div class="address-right">
-                    <h6>E-mail</h6>
-                    <i class="fa fa-envelope" aria-hidden="true"></i>
-                    <p><a href="mailto:ciptajayalestari@gmail.com" style="color: white">ciptajayalestari@gmail.com</a></p>
+                    <h6>E-mail</h6>     
+                    <p><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:ciptajayalestari@gmail.com" style="color: white">ciptajayalestari@gmail.com</a></p>
                   </div>
                   <div class="clearfix"></div>
                 </div>

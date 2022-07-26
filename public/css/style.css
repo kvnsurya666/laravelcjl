@@ -26,6 +26,10 @@
   background: #000000;
 }
 
+.ads-grid_shop {
+	padding: 6em 0;
+}
+
 .navbar-toggler {
   color: #000000;
 }
@@ -137,6 +141,41 @@
 
 .slidering {
   padding: 0;
+}
+
+@media (max-width: 1440px) {
+	.ads-grid_shop {
+		padding: 4em 0;
+	}
+
+	.inner_section_w3ls {
+		margin-top: 3em;
+	}
+
+	.style-image-1_info {
+		padding: 7em 5em;
+		height: 440px;
+	}
+
+	.banner-info-wthree h3 {
+		font-size: 11em;
+	}
+
+	.banner-top,
+	.banner-top1,
+	.banner-top2,
+	.banner-top3 {
+		min-height: 700px;
+	}
+
+	.callbacks_tabs {
+		bottom: 16%;
+		left: 43.5%;
+	}
+
+	.top_nav_right {
+		right: 1%;
+	}
 }
 
 @media (max-width: 900px) {

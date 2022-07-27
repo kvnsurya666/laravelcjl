@@ -15,8 +15,10 @@ return new class extends Migration
     {
         Schema::create('admin', function (Blueprint $table) {
             $table->id('id_admin');
+            $table->integer('sales_id')->nullable();
             $table->string('nama');
             $table->string('email')->unique();
+            $table->enum('role', ['admin', 'sales'])->default('sales');
             $table->timestamp('email_verified_at')->nullable();
             $table->string('username');
             $table->string('password');

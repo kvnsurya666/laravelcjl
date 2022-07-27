@@ -7,8 +7,8 @@
             <h3>Tambah Admin</h3>
         </div>
         <div class="card-body">
-            <a href="{{ route('users.index') }}" class="btn btn-primary">Kembali</a>
-            <form action="{{ route('users.store') }}" method="POST">
+            <a href="{{ route('admin.index') }}" class="btn btn-primary">Kembali</a>
+            <form action="{{ route('admin.store') }}" method="POST">
                 @csrf
                 <ul class="list-group">
                     Nama <input type="text" name="nama" required>

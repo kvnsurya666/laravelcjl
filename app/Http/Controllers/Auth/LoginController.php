@@ -42,7 +42,7 @@ class LoginController extends Controller
     public function redirectTo() 
     {
         if(Auth::user()->role == 'admin') {
-            $this->redirectTo = route('siswa.index');
+            $this->redirectTo = route('admin.index');
             return $this->redirectTo;
         } else {
             $this->redirectTo = route('siswa.show', Auth::user()->siswa_id);

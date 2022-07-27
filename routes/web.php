@@ -19,10 +19,6 @@ Route::get('/', function () {
 });
 
 Route::get('/admin', function () {
-    return view('/admin/login');
-});
-
-Route::get('/admin/home', function () {
     return view('/admin/home');
 });
 

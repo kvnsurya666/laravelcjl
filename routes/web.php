@@ -62,6 +62,3 @@ Route::get('/tentangkami', function () {
     return view('tentangkami');
 });
 
-Auth::routes();
-
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

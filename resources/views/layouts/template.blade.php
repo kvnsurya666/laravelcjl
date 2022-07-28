@@ -21,37 +21,43 @@
     <link rel="stylesheet" href="/font-awesome/font-awesome.min.css" />
   </head>
   <body>
-    <nav class="navbar-dark sticky-top bg-light">
+    <nav class="navbar navbar-expand-lg sticky-top bg-light">
       <div class="container">
-        <div class="row">
-          <div class="col-md-1">
-            <a class="navbar-brand" href="#" style="padding-top: 10px; padding-bottom: 10px">
+                 
+            <a class="navbar-brand" href="/" style="padding-top: 10px; padding-bottom: 10px">
               <img src="/img/logo ciptajayalestari.PNG" alt="" width="100" height="50" />
             </a>
-          </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+       
 
-          <div class="col-md-11" id="navbarNav">
-            <ul class="nav justify-content-center">
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="nav-link active" href="/">Home</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="/" role="button" aria-expanded="false">Katalog</a>
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="/views/katalog/produk.php" role="button" aria-expanded="false">Catalogue</a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="/mesin">Mesin</a></li>
-                  <li><a class="dropdown-item" href="/oli">Oli</a></li>
-                  <li><a class="dropdown-item" href="/aksesoris">Aksesoris</a></li>
-                  <li><a class="dropdown-item" href="/jasa">Jasa</a></li>
+                  <li><a class="dropdown-item" href="/mesin">Machinary</a></li>
+                  <li><a class="dropdown-item" href="/machinetool">Machine Tool</a></li>
+                  <li><a class="dropdown-item" href="/aksesoris">Accesories</a></li>
+                  <li><a class="dropdown-item" href="/cuttingtool">Cutting Tool</a></li>
+                  <li><a class="dropdown-item" href="/measuringtool">Measuring Tool</a></li>
+                  <li><a class="dropdown-item" href="/handtool">Hand Tool</a></li>
+                  <li><a class="dropdown-item" href="/cuttingcoolant">Cutting Coolant</a></li>
+                  <li><a class="dropdown-item" href="/abrasive">Abrasive</a></li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/tentangkami">Tentang Kami</a>
+                <a class="nav-link" href="/tentangkami">About Us</a>
               </li>
             </ul>
           </div>
-        </div>
+        
       </div>
-    </nav>
+  </nav>
 
 @yield('content')
 
@@ -64,19 +70,19 @@
                 <img src="/img/logo ciptajayalestari.PNG" style="margin-top: -10px" width="100px" />
               </a>
             </h2>
-            <h4 style="color: red"><b>Metal working and machinery</b></h4>
+            <h4 style="color: red"><b>Metalworking and Machinery</b></h4>
           </div>
           <div class="col-md-4">
             <div class="sign-grds">
               <div class="col-md-5 sign-gd-one">
-                <h4>Hubungi <span>Kami</span></h4>
+                <h4>Contact <span>Us</span></h4>
                 <div class="address">
                   <div class="address-grid">
                     <div class="address-right">
-                      <h6>Layanan Pelanggan</h6>
-                      <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                      <h6>Office</h6>
                       <div class="phone-domain">
-                        <a href="tel:0313896920" class="nobor">0313896920</a>
+                        <i class="bi bi-telephone"></i>
+                        <a href="tel:0313896920" class="nobor">031-3896920</a>
                       </div>
                     </div>
                   </div>
@@ -85,17 +91,23 @@
                 <br>
                 <div class="address-grid">
                   <div class="address-right">
-                    <h6>E-mail</h6>
-                    <i class="fa fa-envelope" aria-hidden="true"></i>
-                    <p><a href="mailto:ciptajayalestari@gmail.com" style="color: white">ciptajayalestari@gmail.com</a></p>
+                    <h6>E-mail</h6>     
+                    <p><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:ciptajayalestari@gmail.com" style="color: white">ciptajayalestari@gmail.com</a></p>
                   </div>
                   <div class="clearfix"></div>
                 </div>
                 <br>
                 <div class="address-grid">
                         <div class="address-right">
-                          <h6>Alamat</h6> 
-                          <p><i class="bi bi-house-door"></i>   Jalan Kenjeran 300 Blok A-7 Surabaya, Jawa Timur, indonesia</p>
+                          <h6>Office</h6> 
+                          <p><i class="bi bi-house-door"></i>   Jalan Kenjeran 300 Blok A-7 Surabaya, Jawa Timur, 60135, Indonesia</p>
+                        </div>
+                      <div class="clearfix"></div>
+                    </div>
+                    <div class="address-grid">
+                        <div class="address-right">
+                          <h6>Warehouse</h6> 
+                          <p><i class="bi bi-building"></i>   Kompleks Pergudangan SiRIE S-7, Lingkar Timur Sidoarjo, Jawa Timur</p>
                         </div>
                       <div class="clearfix"></div>
                     </div>
@@ -107,7 +119,7 @@
             <div id="wa">
               <div class="phone-domain">
                 <div style="padding: 6px 10px">
-                  <p><b>Sales Counter</b></p>
+                  <p><b>Customer Service</b></p>
                   <img src="/img/whatsapp.png" alt="" style="margin-right: 5px; height: 30px; width: 30px" /><span class="" style="float: left; background-color: #25d366"></span>
                   <a target="_blank" href="https://api.whatsapp.com/send?phone=6281335700084&amp;text=Halo Sales Counter, Saya dapat nomor dari www.ciptajayalestari.id" class="nobor" style="font-size: 18px">
                     <span class="hidden-md-down" style="color: #fff">081335700084</span></a>

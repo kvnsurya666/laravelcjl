@@ -45,7 +45,7 @@ class LoginController extends Controller
             $this->redirectTo = route('admin.index');
             return $this->redirectTo;
         } else {
-            $this->redirectTo = route('sales.show', Auth::user()->sid_sales);
+            $this->redirectTo = route('sales.show', Auth::user()->id_sales);
             return $this->redirectTo;
         }
     }

@@ -15,7 +15,8 @@ class SalesController extends Controller
      */
     public function index()
     {
-        //
+        $datasales = ModelSales::all();
+        return view('index_sales', ['sales' => $datasales]);
     }
 
     /**
@@ -25,7 +26,7 @@ class SalesController extends Controller
      */
     public function create()
     {
-        //
+        return view('form_tambah_sales');
     }
 
     /**

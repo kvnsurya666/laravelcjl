@@ -16,7 +16,7 @@ class AdminController extends Controller
     public function index()
     {
         $dataadmin = ModelAdmin::all();
-        return view('index', ['users' => $dataadmin]);
+        return view('/admin/index', ['admin' => $dataadmin]);
     }
 
     /**
@@ -86,7 +86,7 @@ class AdminController extends Controller
         $admin->password = $request->password;
         $admin->save();
 
-        return redirect()->route('users.index');
+        return redirect()->route('admin.index');
     }
 
     /**
@@ -97,9 +97,9 @@ class AdminController extends Controller
      */
     public function destroy($id)
     {
-        $user = ModelAdmin::find($id);
-        $user->delete();
+        $admin = ModelAdmin::find($id);
+        $admin->delete();
 
-        return redirect()->route('users.index');
+        return redirect()->route('admin.index');
     }
 }

@@ -15,7 +15,7 @@ return new class extends Migration
     {
         Schema::create('admin', function (Blueprint $table) {
             $table->id('id_admin');
-            $table->integer('sales_id')->nullable();
+            $table->integer('id_sales')->nullable();
             $table->string('nama');
             $table->string('email')->unique();
             $table->enum('role', ['admin', 'sales'])->default('sales');

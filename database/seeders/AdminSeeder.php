@@ -30,9 +30,8 @@ class AdminSeeder extends Seeder
             'password' => ('fenny')
         ]);
         DB::table('admin')->insert([
-            'id_admin' => '3',
-            'id_sales' => 1,
             'nama' => 'Ilyas',
+            'id_sales' => 1,
             'role' => 'sales',
             'email' => 'ilyas@gmail.com',
             'username' => 'ilyas', 

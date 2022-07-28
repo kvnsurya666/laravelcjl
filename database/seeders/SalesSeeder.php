@@ -16,14 +16,14 @@ class SalesSeeder extends Seeder
     public function run()
     {
         DB::table('sales')->insert([
-            'nama' => 'Andi Saputra',
-            'nis' => 101,
-            'tgl_lahir' => '2003-12-22',
+            'nama' => 'Ilyas',
+            'alamat' => 'Surabaya',
+            'tgl_lahir' => '1977-01-01',
         ]);
         DB::table('sales')->insert([
-            'nama' => 'Budi Cahya',
-            'nis' => 102,
-            'tgl_lahir' => '2004-01-30',
+            'nama' => 'Edi',
+            'alamat' => 'Surabaya',
+            'tgl_lahir' => '1975-01-30',
         ]);
     }
 }

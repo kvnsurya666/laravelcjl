@@ -16,7 +16,6 @@ class AdminSeeder extends Seeder
     public function run()
     {
         DB::table('admin')->insert([
-            'id_admin' => '1',
             'nama' => 'Kevin',
             'role' => 'admin',
             'email' => 'kevinsuryaperdana@gmail.com',
@@ -24,7 +23,6 @@ class AdminSeeder extends Seeder
             'password' => ('kevin211096')
         ]);
         DB::table('admin')->insert([
-            'id_admin' => '2',
             'nama' => 'Fenny',
             'role' => 'admin',
             'email' => 'fennyresav18@gmail.com',
@@ -33,6 +31,7 @@ class AdminSeeder extends Seeder
         ]);
         DB::table('admin')->insert([
             'id_admin' => '3',
+            'id_sales' => 1,
             'nama' => 'Ilyas',
             'role' => 'sales',
             'email' => 'ilyas@gmail.com',
